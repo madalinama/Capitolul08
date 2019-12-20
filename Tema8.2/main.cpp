@@ -1,7 +1,6 @@
-//#include <iostream>
-//using namespace std;
+#include <iostream>
+using namespace std;
 #include "NormaProf.h"
-#include "Clasa.h"
 
 
 int main()
@@ -9,15 +8,20 @@ int main()
     Clasa oclasa(11,'C',4);
     Clasa altaclasa(5,'B',5);
     Clasa ultimaclasa(9,'A',3);
+
     NormaProf ludu(matematica,oclasa,altaclasa,ultimaclasa);
     cout<<"Orarul este:"<<endl;
     ludu.AfiseazaOre();
-    cout<<"Total ore :"<<ludu.CalculeazaTotalOre();
+    cout<<"Total ore :"<<ludu.CalculeazaTotalOre()<<endl;
     cout<<endl;
+
     NormaProf* mutu=new NormaProf{matematica,oclasa,altaclasa,ultimaclasa};
     cout<<"Orarul este:"<<endl;
     mutu->AfiseazaOre();
     cout<<"Total ore: "<<mutu->CalculeazaTotalOre()<<endl;
+
+    delete mutu;
+
 return 0;
 }
 

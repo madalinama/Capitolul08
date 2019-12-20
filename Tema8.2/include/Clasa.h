@@ -1,7 +1,6 @@
 #ifndef CLASA_H
 #define CLASA_H
-#include <iostream>
-using namespace std;
+
 
 class Clasa
 {

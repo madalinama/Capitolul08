@@ -1,4 +1,5 @@
 #include "Clasa.h"
+#include <iostream>
 
 Clasa::Clasa(unsigned short an,char litera, unsigned short orePeSapt)
 {
@@ -9,7 +10,7 @@ Clasa::Clasa(unsigned short an,char litera, unsigned short orePeSapt)
 
 void Clasa::AfiseazaOre()
 {
-    cout<<"Clasa a "<<_an<<_litera<<" : "<<_orePeSapt<<"ore / sapt"<<endl;
+    std::cout<<"Clasa a "<<_an<<_litera<<" : "<<_orePeSapt<<"ore / sapt"<<std::endl;
 }
 
 Clasa::~Clasa()
