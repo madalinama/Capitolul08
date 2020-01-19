@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1579438442 source:c:\c++\tema8_4\main.cpp
+	<iostream>
+	"Cursant.h"
+	<Persoana.h>
+	"Mentor.h"
+
+1579436236 source:c:\c++\tema8_4\src\persoana.cpp
+	"Persoana.h"
+	<iostream>
+
+1579435161 c:\c++\tema8_4\include\persoana.h
+	<iostream>
+
+1579435375 source:c:\c++\tema8_4\src\mentor.cpp
+	"Mentor.h"
+	<iostream>
+
+1579381785 c:\c++\tema8_4\include\mentor.h
+	<Persoana.h>
+
+1579437762 source:c:\c++\tema8_4\src\cursant.cpp
+	"Cursant.h"
+	<iostream>
+
+1579437121 c:\c++\tema8_4\include\cursant.h
+	<Persoana.h>
+
